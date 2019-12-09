@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/testview"
+    android:layout_width="140dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_bg"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:gravity="bottom|left"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+
+    <TextView
+        android:id="@+id/location_yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:text="Location Tracking: Yes"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/location_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:visibility="invisible"
+        android:text="Location Tracking: No"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/microphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Microphone Access:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Strong Password:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/encryption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encryption:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera Access:"
+        android:textAlignment="center" />
+
+</LinearLayout>
