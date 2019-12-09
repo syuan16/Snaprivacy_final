@@ -1,5 +1,6 @@
 package com.notbytes.barcodereader;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -173,6 +174,11 @@ public class SolarActivity extends AppCompatActivity {
 
         // Lastly request CAMERA permission which is required by ARCore.
         DemoUtils.requestCameraPermission(this, RC_PERMISSIONS);
+    }
+
+    public void backToMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
     @Override
